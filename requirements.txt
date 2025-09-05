@@ -1,4 +1,8 @@
 aiogram==3.13.1
 aiohttp
 python-dotenv
+<<<<<<< HEAD
 pandas==2.2.2
+=======
+pandas==2.2.2
+>>>>>>> 718b08e3685c5a4994810632d493b7bf8aa78828
