@@ -1,0 +1,262 @@
+{
+  "ar": {
+    // === الرسائل العامة ===
+    "welcome": "مرحباً بكم في بوت أخبار الفوركس 👋",
+    
+    // عند بدء البوت لأول مرة، قبل اختيار اللغة
+    "choose_language": "اختـــــــــــــر لغتـــــــــــك / Choose your language:",
+    
+    // القائمة الرئيسية بعد اختيار اللغة
+    "choose_service": "اختر الخدمة:",
+    
+    // أزرار القائمة الرئيسية
+    "free_news": "📰 الأخبار المجانية",
+    "paid_sub": "💼 الاشتراك المدفوع",
+    "my_account": "👤 حسابي",
+    "support_request": "📞 تواصل مع الدعم",
+    "admin_panel": "🔧 لوحة التحكم",
+    "back": "🔙 رجوع",
+    
+    // === الاشتراك المدفوع ===
+    // رسالة عند اختيار "الاشتراك المدفوع"
+    "sub_duration": "💰 اختر مدة الاشتراك المناسبة لك:",
+    
+    // خيارات المدة (1 شهر، 3 أشهر، 6 أشهر)
+    "duration_1": "1 شهر = 150$",
+    "duration_3": "3 أشهر = 300$",
+    "duration_6": "6 أشهر = 500$",
+    
+    // رسالة تظهر بعد اختيار المدة، وتطلب اختيار طريقة الدفع
+    "payment_method": "🏦 اختر طريقة الدفع للدفع عن %months% شهر(أ):",
+    
+    // تُظهر عنوان المحول إليه + طلب إرسال الإيصال
+    "send_receipt": "💳 أرسل المبلغ إلى:\n\n%address%\n\n📸 ثم أرسل صورة الإيصال هنا.",
+    
+    // تُرسل للمستخدم بعد إرسال الصورة
+    "receipt_received": "✅ تم استلام الإيصال، وسيتم مراجعته من قبل الإدارة قريباً.",
+    
+    // بعد تفعيل الاشتراك من قبل المشرف
+    "sub_activated": "✅ تم تفعيل اشتراكك! اضغط على الزر أدناه للانضمام إلى القناة الخاصة:",
+    
+    // تُرسل بعد انتهاء الاشتراك وطرد العضو
+    "sub_expired": "❌ انتهى اشتراكك، وتمت إزالتك من القناة الخاصة.\n\nنعتذر عن أي إزعاج، ونشكرك على فترة اشتراكك معنا.\nإذا أردت العودة في المستقبل، نرحب بك دائمًا!",
+    
+    // تُرسل عند دخول المستخدم للقناة الخاصة
+    "welcome_to_channel": "🎉 مرحبًا بك في القناة الخاصة!\n\n📌 هنا ستجد:\n• منشورات النجوم 🌟\n• تحليلات فنية دقيقة 📈\n• إشعارات فورية ⏰\n\nاستمتع بتجربة فريدة معنا!",
+    
+    // التذكير قبل 3 أيام من الانتهاء
+    "reminder_3_days": "⏰ تنبيه: اشتراكك سينتهي خلال 3 أيام!\nلتجديد الاشتراك، تواصل مع الإدارة الآن.",
+    
+    // التذكير قبل يوم من الانتهاء
+    "reminder_1_day": "⏰ تنبيه أخير: اشتراكك ينتهي غدًا!\nإذا لم تُجدّد، سيتم إزالتك من القناة الخاصة.\nتواصل مع الإدارة الآن لتجديد اشتراكك.",
+    
+    // عند الضغط على "حسابي" - إذا لم يكن نشطًا
+    "account_inactive": "❌ ليس لديك اشتراك نشط",
+    
+    // عند الضغط على "حسابي" - إذا كان نشطًا
+    "account_active": "✅ اشتراكك نشط\n📅 ينتهي في: %end_date%\n⏳ أيام متبقية: %days_left%",
+    
+    // === لوحة التحكم ===
+    // عنوان قسم الإحصائيات
+    "admin_stats_title": "📊 **الإحصائيات التفصيلية**",
+    
+    // عنوان قسم الطلبات المعلقة
+    "admin_pending_title": "📥 **الطلبات المعلقة:**",
+    
+    // رسالة تظهر عند الضغط على "بحث وتعديل"
+    "admin_search_prompt": "🔍 **ابحث عن مستخدم**\n\nأرسل:\n• *معرف المستخدم (ID)*\n• أو *اسم المستخدم (Username)* مثل @username",
+    
+    // أسماء أزرار لوحة التحكم
+    "admin_stats": "📊 إحصائيات",
+    "admin_pending": "📥 الطلبات المعلقة",
+    "admin_all_users": "👥 جميع المستخدمين",
+    "admin_search": "🔍 بحث وتعديل",
+    "admin_links": "🔗 روابط الدعوة",
+    "admin_wallets": "💳 المحافظ",
+    "admin_broadcast": "✉️ إرسال جماعي",
+    "admin_export": "📤 تصدير البيانات",
+    "add_links": "➕ إضافة روابط",
+    "clear_links": "🗑 حذف الكل",
+    "edit_wallets": "✏️ تعديل المحافظ",
+    "approve": "✅ تفعيل",
+    "reject": "❌ رفض",
+    "extend": "➕ تمديد",
+    "shorten": "➖ تقصير",
+    "delete": "🗑 حذف",
+    "send_to_user": "📩 إرسال رسالة لمستخدم",
+    
+    // === تواصل مع الدعم ===
+    // رسالة تظهر عند محاولة إرسال أكثر من رسالة كل 3 دقائق
+    "support_cooldown": "⏳ يمكنك إرسال طلب دعم كل 3 دقائق.\nيرجى الانتظار %minutes% دقيقة و%seconds% ثانية.",
+    
+    // تُرسل للمستخدم بعد إرسال رسالة الدعم بنجاح
+    "support_sent": "✅ تم إرسال رسالتك للمشرف. سيتم الرد عليك قريبًا.",
+    
+    // إذا فشل إرسال الرسالة
+    "support_failed": "❌ فشل في إرسال الرسالة. يرجى المحاولة لاحقًا.",
+    
+    // === رسائل النظام ===
+    // إذا استخدم غير المشرف أمر /admin
+    "admin_only": "🚫 هذا الأمر مخصص للمشرف فقط.",
+    
+    // إذا حاول مستخدم غير مسموح له الدخول إلى خيار إداري
+    "not_authorized": "🚫 غير مصرح",
+    
+    // إذا لم توجد طلبات معلقة
+    "no_pending": "📭 لا توجد طلبات معلقة.",
+    
+    // إذا لم يكن هناك مستخدمون بعد
+    "no_users": "📭 لا يوجد مستخدمين بعد.",
+    
+    // إذا لم يُعثر على المستخدم أثناء البحث
+    "user_not_found": "❌ لم يتم العثور على مستخدم بهذا المعرف أو اسم المستخدم.",
+    
+    // بعد حذف مستخدم من قاعدة البيانات
+    "user_deleted": "🗑 تم حذف المستخدم %user_id% من قاعدة البيانات.",
+    
+    // رسالة تُرسل عند انتهاء الاشتراك (بديلة لـ sub_expired في بعض الحالات)
+    "subscription_ended": "❌ تم انتهاء اشتراكك، وتمت إزالتك من القناة الخاصة.",
+    
+    // بعد الإرسال الجماعي
+    "broadcast_sent": "✅ تم الإرسال إلى %count% مستخدم.",
+    
+    // عند تصدير البيانات
+    "export_data": "📄 بيانات المستخدمين",
+    
+    // عند تحديث محفظة
+    "wallet_updated": "✅ تم تحديث طريقة الدفع:\n\n<b>%method%</b>\n%address%",
+    
+    // عند إضافة طريقة دفع جديدة
+    "new_wallet_added": "✅ تم إضافة طريقة دفع جديدة:\n\n**%method%**: `%address%`"
+  },
+  "en": {
+    // == General Messages ==
+    "welcome": "Welcome to the Forex News Bot 👋",
+    
+    // When starting the bot, before language selection
+    "choose_language": "Choose your language:",
+    
+    // Main menu after language selection
+    "choose_service": "Choose a service:",
+    
+    // Main menu buttons
+    "free_news": "📰 Free News",
+    "paid_sub": "💼 Paid Subscription",
+    "my_account": "👤 My Account",
+    "support_request": "📞 Contact Support",
+    "admin_panel": "🔧 Admin Panel",
+    "back": "🔙 Back",
+    
+    // == Paid Subscription ==
+    // When user clicks "Paid Subscription"
+    "sub_duration": "💰 Choose your subscription duration:",
+    
+    // Duration options
+    "duration_1": "1 Month = $150",
+    "duration_3": "3 Months = $300",
+    "duration_6": "6 Months = $500",
+    
+    // After choosing duration, asks for payment method
+    "payment_method": "🏦 Choose a payment method for %months% month(s):",
+    
+    // Shows the address to send money to
+    "send_receipt": "💳 Send the amount to:\n\n%address%\n\n📸 Then send a screenshot of the receipt here.",
+    
+    // Sent after user sends the receipt photo
+    "receipt_received": "✅ Receipt received, and will be reviewed by the admin shortly.",
+    
+    // Sent after admin approves subscription
+    "sub_activated": "✅ Your subscription has been activated! Click the button below to join the private channel:",
+    
+    // Sent after subscription ends and user is removed
+    "sub_expired": "❌ Your subscription has ended, and you have been removed from the private channel.\n\nWe apologize for any inconvenience and thank you for your time with us.\nIf you'd like to return in the future, you're always welcome!",
+    
+    // Sent when user joins the private channel
+    "welcome_to_channel": "🎉 Welcome to the private channel!\n\n📌 Here you'll find:\n• Star posts 🌟\n• Accurate technical analysis 📈\n• Instant alerts ⏰\n\nEnjoy your unique experience with us!",
+    
+    // Reminder 3 days before expiry
+    "reminder_3_days": "⏰ Reminder: Your subscription ends in 3 days!\nContact admin to renew now.",
+    
+    // Final reminder 1 day before expiry
+    "reminder_1_day": "⏰ Final reminder: Your subscription ends tomorrow!\nIf you don't renew, you will be removed from the private channel.\nContact admin now to renew.",
+    
+    // When clicking "My Account" - if inactive
+    "account_inactive": "❌ You don't have an active subscription",
+    
+    // When clicking "My Account" - if active
+    "account_active": "✅ Your subscription is active\n📅 Ends on: %end_date%\n⏳ Days left: %days_left%",
+    
+    // == Admin Panel ==
+    // Title for statistics section
+    "admin_stats_title": "📊 **Detailed Statistics**",
+    
+    // Title for pending requests
+    "admin_pending_title": "📥 **Pending Requests:**",
+    
+    // Prompt when clicking "Search & Edit"
+    "admin_search_prompt": "🔍 **Search User**\n\nSend:\n• *User ID*\n• or *Username* like @username",
+    
+    // Admin panel buttons
+    "admin_stats": "📊 Statistics",
+    "admin_pending": "📥 Pending Requests",
+    "admin_all_users": "👥 All Users",
+    "admin_search": "🔍 Search & Edit",
+    "admin_links": "🔗 Invite Links",
+    "admin_wallets": "💳 Wallets",
+    "admin_broadcast": "✉️ Broadcast",
+    "admin_export": "📤 Export Data",
+    "add_links": "➕ Add Links",
+    "clear_links": "🗑 Clear All",
+    "edit_wallets": "✏️ Edit Wallets",
+    "approve": "✅ Approve",
+    "reject": "❌ Reject",
+    "extend": "➕ Extend",
+    "shorten": "➖ Shorten",
+    "delete": "🗑 Delete",
+    "send_to_user": "📩 Send Message to User",
+    
+    // == Support System ==
+    // When user tries to send support message too frequently
+    "support_cooldown": "⏳ You can send a support request every 3 minutes.\nPlease wait %minutes% minutes and %seconds% seconds.",
+    
+    // Sent after user successfully sends support message
+    "support_sent": "✅ Your message has been sent to the admin. You will be replied to soon.",
+    
+    // If sending the message fails
+    "support_failed": "❌ Failed to send message. Please try again later.",
+    
+    // == System Messages ==
+    // If non-admin uses /admin
+    "admin_only": "🚫 This command is for admin only.",
+    
+    // If unauthorized user tries to access admin feature
+    "not_authorized": "🚫 Unauthorized",
+    
+    // If no pending requests
+    "no_pending": "📭 No pending requests.",
+    
+    // If no users yet
+    "no_users": "📭 No users yet.",
+    
+    // If user not found during search
+    "user_not_found": "❌ User not found with this ID or username.",
+    
+    // After deleting a user
+    "user_deleted": "🗑 User %user_id% has been deleted from the database.",
+    
+    // When subscription ends (alternative to sub_expired)
+    "subscription_ended": "❌ Your subscription has ended, and you have been removed from the private channel.",
+    
+    // After broadcast
+    "broadcast_sent": "✅ Broadcast sent to %count% users.",
+    
+    // When exporting data
+    "export_data": "📄 User Data",
+    
+    // When updating a wallet method
+    "wallet_updated": "✅ Wallet method updated:\n\n<b>%method%</b>\n%address%",
+    
+    // When adding a new payment method
+    "new_wallet_added": "✅ New payment method added:\n\n**%method%**: `%address%`"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome to the Forex News Bot 👋",
+  "choose_service": "Choose a service:",
+  "free_news": "📰 Free News",
+  "paid_sub": "💼 Paid Subscription",
+  "my_account": "👤 My Account",
+  "admin_panel": "🔧 Admin Panel",
+  "no_active_sub": "❌ You don't have an active subscription",
+  "sub_duration": "💰 Choose your subscription duration:",
+  "payment_method": "🏦 Choose a payment method for %months% month(s):",
+  "send_receipt": "💳 Send the amount to:\n\n`%address%`\n\n📸 Then send a screenshot of the receipt here.",
+  "receipt_received": "✅ Receipt received, and will be reviewed by the admin shortly.",
+  "sub_activated": "✅ Your subscription has been activated! Click the button below to join the private channel:",
+  "sub_expired": "❌ Your subscription has ended, and you have been removed from the private channel.\n\nWe apologize for any inconvenience and thank you for your time with us.\nIf you'd like to return in the future, you're always welcome!",
+  "welcome_to_channel": "🎉 Welcome to the private channel!\n\n📌 Here you'll find:\n• Star posts 🌟\n• Accurate technical analysis 📈\n• Instant alerts ⏰\n\nEnjoy your unique experience with us!",
+  "reminder_3_days": "⏰ Reminder: Your subscription ends in 3 days!\nContact admin to renew now.",
+  "reminder_1_day": "⏰ Final reminder: Your subscription ends tomorrow!\nIf you don't renew, you will be removed from the private channel.\nContact admin now to renew.",
+  "account_active": "✅ Your subscription is active\n📅 Ends on: %end_date%\n⏳ Days left: %days_left%",
+  "account_inactive": "❌ You don't have an active subscription",
+  "admin_stats_title": "📊 **Detailed Statistics**",
+  "admin_pending_title": "📥 **Pending Requests:**",
+  "admin_search_prompt": "🔍 **Search User**\n\nSend:\n• *User ID*\n• or *Username* like @username"
+}
