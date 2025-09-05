@@ -1,0 +1,4 @@
+aiogram==3.13.1
+aiohttp
+python-dotenv
+pandas==2.2.2
